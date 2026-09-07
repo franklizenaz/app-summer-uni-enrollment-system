@@ -1,0 +1,52 @@
+# -----------------------------
+# Environment (¡Crítico para Zeabur!)
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Docker & Zeabur
+# -----------------------------
+# Ignora archivos locales de Docker que no deben ir a producción
+docker-compose.override.yml
+.docker/
+# Si guardas los datos de tu base de datos local en una carpeta del proyecto:
+docker-data/
+data/
+mysql/
+
+# -----------------------------
+# Composer
+# -----------------------------
+/vendor/
+composer.phar
+
+# -----------------------------
+# Logs & cache (PHP / Laravel / Symfony)
+# -----------------------------
+*.log
+logs/
+cache/
+tmp/
+bootstrap/cache/
+storage/*.log
+storage/framework/
+
+# -----------------------------
+# OS / IDE
+# -----------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# -----------------------------
+# Node / Frontend (si aplica)
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+/public/build/
+/public/hot/

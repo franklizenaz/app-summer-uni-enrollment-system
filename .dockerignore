@@ -1,0 +1,27 @@
+# Ignorar control de versiones y configuraciones locales
+.git
+.gitignore
+.idea/
+.vscode/
+README.md
+LICENSE
+
+# Ignorar archivos de entorno (¡Seguridad!)
+.env
+.env.*
+!.env.example
+
+# Ignorar dependencias locales (Docker las instalará adentro)
+vendor/
+node_modules/
+
+# Ignorar datos locales de bases de datos
+docker-data/
+data/
+mysql/
+
+# Logs y cachés locales
+*.log
+logs/
+cache/
+tmp/
