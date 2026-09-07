@@ -1,4 +1,4 @@
-# Product: Summer Uni Enrollment System
+# Web App: Summer Uni Enrollment System
 > Una plataforma web optimizada diseñada para agilizar el proceso de matrícula, validación y planificación de capacidad para los períodos académicos de verano de la universidad.
 
 ---
